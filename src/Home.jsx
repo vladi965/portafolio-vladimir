@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import ButtonWhatsApp from "./components/ButtonWhatsApp";
 import perfilImg from "./assets/img-perfil.png";
 import handImg from "./assets/img-mano.png";
 import iconLinkedln from "./assets/iconos/icon-linkedln.svg";
@@ -14,6 +15,7 @@ const Home = () => {
   return (
     <header>
       <Navbar />
+      <ButtonWhatsApp />
       <div className="banner">
         <div className="banner-text">
           <div className="banner-content-previus">
