@@ -318,7 +318,7 @@ ul#nav-skill li {
 /* ------------------------------------------------------------------ */
 #about .about-item {
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
 }
 #about .about-content-title {
   display: flex;
@@ -343,7 +343,7 @@ ul#nav-skill li {
   width: 58%;
 }
 #about .about-title p {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #fff;
   font-family: "poppins-extralight", sans-serif;
 }
@@ -374,4 +374,102 @@ ul#nav-skill li {
 
 .whatsapp-icon {
   margin-top: 14px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Experience Styles
+/* ------------------------------------------------------------------ */
+#experience {
+  padding-top: 4rem;
+  padding-bottom: 2.5rem;
+  overflow: hidden;
+}
+#experience .experience-item {
+  margin: 0 auto;
+  width: 80%;
+}
+#experience .experience-content-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+#experience .experience-content-title h1 {
+  font-size: 2.4rem;
+  font-family: "poppins-regular", sans-serif;
+  margin: 0px;
+  color: #fff;
+}
+#experience .timeline-marker {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #fefefe;
+  position: absolute;
+  left: 4px;
+  top: 7px;
+}
+#experience .timeline-marker.active {
+  background-color: #00b07b;
+}
+#experience .container-experience {
+  position: relative;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+#experience .container-experience::before {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: 30px;
+  height: 94%;
+  width: 1px;
+  background-color: #fff;
+  z-index: 1;
+}
+#experience .container-experience:last-child::before {
+  display: none;
+}
+#experience .timeline-marker.active {
+  background-color: #00b07b;
+}
+#experience .experience-experience-info {
+  margin-top: 8rem;
+  position: relative;
+}
+#experience .experience-content {
+  display: flex;
+  align-items: flex-start;
+  width: 94%;
+  padding-left: 55px;
+}
+#experience .experience-box-info {
+  width: 40%;
+}
+#experience .experience-box-info h3 {
+  margin: 0px;
+  font-size: 23px;
+  font-family: "poppins-semibold", sans-serif;
+  color: #fff;
+}
+#experience .experience-box-info p {
+  margin: 0px;
+  font-size: 19px;
+  color: #fff;
+  font-family: "poppins-regular", sans-serif;
+}
+#experience .experience-box-info span {
+  font-size: 14px;
+  color: #fff;
+  line-height: 25px;
+  font-family: "poppins-light", sans-serif;
+}
+#experience .experience-box-description {
+  width: 60%;
+}
+#experience .experience-box-description p {
+  color: #fff;
+  font-family: "poppins-light", sans-serif;
+  margin: 0px;
+  font-size: 15px;
 }
