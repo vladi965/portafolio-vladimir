@@ -43,13 +43,16 @@ const Home = () => {
           </h3>
           <ul className="social">
             <li>
-              <a href="#">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/vladimir-sanchez-astoray/"
+              >
                 <img src={iconLinkedln} alt="imagen de Linkedln" />
                 Mi Linkedln
               </a>
             </li>
             <li>
-              <a href="#">
+              <a target="_blank" href="https://github.com/vladi965">
                 <img src={iconGithub} alt="imagen de Github" />
                 Mi Github
               </a>

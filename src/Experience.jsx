@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import iconExperience from "./assets/iconos/icon-experience.svg";
-import imgPerfil from "./assets/perfil_user.png";
+
 const Experience = () => {
   const experiences = [
     {
