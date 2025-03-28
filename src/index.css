@@ -510,7 +510,7 @@ ul#nav-skill li {
 }
 #experience .experience-box-info p {
   margin: 0px;
-  font-size: 19px;
+  font-size: 18px;
   color: #fff;
   font-family: "poppins-regular", sans-serif;
 }
@@ -844,10 +844,195 @@ ul#nav-code li:hover::after {
 /* ------------------------------------------------------------------ */
 /* Responsive Design
 /* ------------------------------------------------------------------ */
-/* ------------------------------ */
-/* Responsive Design Inicio
-/* ------------------------------ */
-@media only screen and (max-width: 360px) {
+/* ----------------------------------------- */
+/* Responsive Design Tablet
+/* ----------------------------------------- */
+@media screen and (max-width: 768px) {
+  /* ------------------------------ */
+  /* Responsive Design Home
+  /* ------------------------------ */
+  .content-nav {
+    display: block;
+  }
+  .content-image {
+    left: 25px;
+  }
+  header .banner-text {
+    margin-top: 3rem;
+  }
+  .content-image img {
+    width: 40px;
+  }
+  header .banner {
+    width: 100%;
+  }
+  header .banner-border-box p {
+    font-size: 13px;
+  }
+  header .banner-content-previus {
+    margin-bottom: 13px;
+  }
+  header .banner-content-previus img {
+    width: 80px;
+  }
+  header .banner-content-previus .banner-border-box img {
+    width: 27px;
+  }
+  header .banner-text h1 {
+    font-size: 50px;
+  }
+  header .banner-text h3 {
+    font-size: 22px;
+    width: 80%;
+  }
+  header .social li {
+    margin: 0 8px;
+  }
+  header .skillContainer {
+    margin-top: 0rem;
+  }
+  header .skillContainer h2 {
+    font-size: 37px;
+    margin-bottom: 15px;
+  }
+  .whatsapp {
+    bottom: 45px;
+    right: 30px;
+  }
+  /* ------------------------------ */
+  /* Responsive Design About
+  /* ------------------------------ */
+  #about {
+    margin: 0px 10px;
+  }
+  #about .about-item {
+    width: 93%;
+  }
+  #about .about-content-title {
+    margin-top: 2.9rem;
+    margin-bottom: 15px;
+  }
+  #about .about-content-title img {
+    width: 30px;
+  }
+  #about .about-content-title h1 {
+    font-size: 2.4rem;
+  }
+  #about .about-content-bio {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 25px;
+  }
+  #about .about-title {
+    width: 100%;
+  }
+  #about .about-title p {
+    font-size: 1.2rem;
+  }
+  #about .about-perfil {
+    width: 235px;
+  }
+  /* ------------------------------ */
+  /* Responsive Design Experience
+  /* ------------------------------ */
+  #experience {
+    margin: 0px 10px;
+    padding-top: 2.9rem;
+    padding-bottom: 3.8rem;
+  }
+  #experience .experience-item {
+    width: 95%;
+  }
+  #experience .container-experience {
+    margin-left: 10px;
+  }
+  #experience .experience-content-title {
+    margin-bottom: 25px;
+  }
+  #experience .experience-content-title img {
+    width: 40px;
+  }
+  #experience .experience-content-title h1 {
+    font-size: 2.4rem;
+  }
+  #experience .experience-box-info {
+    width: 100%;
+  }
+  #experience .experience-box-description {
+    width: 100%;
+  }
+  #experience .experience-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 40px;
+  }
+  /* ------------------------------ */
+  /* Responsive Design Project
+  /* ------------------------------ */
+  #portfolio {
+    margin: 0px 10px;
+    padding-top: 2.9rem;
+    padding-bottom: 3.8rem;
+  }
+  #portfolio .portfolio-item {
+    width: 95%;
+  }
+  #portfolio .portfolio-info {
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 1rem;
+  }
+  #portfolio .portfolio-content-title {
+    margin-bottom: 25px;
+  }
+  #portfolio .portfolio-content-title img {
+    width: 40px;
+  }
+  #portfolio .portfolio-content-title h1 {
+    font-size: 2.4rem;
+  }
+  #portfolio .experience-card {
+    padding: 20px;
+  }
+  /* ------------------------------ */
+  /* Responsive Design Project
+  /* ------------------------------ */
+  #contact {
+    margin: 0px 10px;
+    padding-top: 2.9rem;
+    padding-bottom: 3.8rem;
+  }
+  #contact .contact-container {
+    width: 95%;
+  }
+  #contact .grid-content {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+  }
+  #contact .box-contact {
+    margin-top: 1rem;
+  }
+  #contact .contact-content-title {
+    margin-bottom: 20px;
+  }
+  #contact .contact-content-title img {
+    width: 40px;
+  }
+  #contact .contact-content-title h1 {
+    font-size: 2.4rem;
+  }
+}
+
+/* ----------------------------------------- */
+/* Responsive Design Mobile
+/* ----------------------------------------- */
+@media screen and (max-width: 426px) {
+  /* ------------------------------ */
+  /* Responsive Design Home
+  /* ------------------------------ */
   .content-nav {
     display: none;
   }
@@ -856,14 +1041,21 @@ ul#nav-code li:hover::after {
     display: flex;
     justify-content: space-around;
   }
-  header {
-    margin: 0px 10px;
+  .content-image {
+    left: 5px;
+  }
+  header .banner-text {
+    margin-top: 3rem;
   }
   .content-image img {
     width: 40px;
   }
   header .banner {
     width: 100%;
+    padding-bottom: 4.5rem;
+  }
+  header .banner-content-previus {
+    margin-bottom: 13px;
   }
   header .banner-content-previus img {
     width: 55px;
@@ -876,15 +1068,508 @@ ul#nav-code li:hover::after {
   }
   header .banner-text h3 {
     font-size: 18px;
-    width: 100%;
+    width: 95%;
   }
   header .social li {
     margin: 0 8px;
   }
   header .skillContainer {
-    margin-top: 2rem;
+    margin-top: 0rem;
   }
   header .skillContainer h2 {
     font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .whatsapp {
+    bottom: 70px;
+    right: 20px;
+  }
+  /* ------------------------------ */
+  /* Responsive Design About
+  /* ------------------------------ */
+  #about {
+    margin: 0px 10px;
+  }
+  #about .about-item {
+    width: 100%;
+  }
+  #about .about-content-title {
+    margin-top: 2.9rem;
+    margin-bottom: 15px;
+  }
+  #about .about-content-title img {
+    width: 25px;
+  }
+  #about .about-content-title h1 {
+    font-size: 1.8rem;
+  }
+  #about .about-content-bio {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    margin-top: 25px;
+  }
+  #about .about-title {
+    width: 100%;
+  }
+  #about .about-title p {
+    font-size: 1rem;
+  }
+  #about .about-perfil {
+    width: 200px;
+  }
+  /* ------------------------------ */
+  /* Responsive Design Experience
+  /* ------------------------------ */
+  #experience {
+    margin: 0px 10px;
+    padding-top: 2.9rem;
+    padding-bottom: 3.8rem;
+  }
+  #experience .experience-item {
+    width: 100%;
+  }
+  #experience .experience-content-title {
+    margin-bottom: 25px;
+  }
+  #experience .experience-content-title img {
+    width: 30px;
+  }
+  #experience .experience-content-title h1 {
+    font-size: 1.8rem;
+  }
+  #experience .experience-box-info {
+    width: 100%;
+  }
+  #experience .experience-box-description {
+    width: 100%;
+  }
+  #experience .experience-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 40px;
+  }
+  /* ------------------------------ */
+  /* Responsive Design Project
+  /* ------------------------------ */
+  #portfolio {
+    margin: 0px 10px;
+    padding-top: 2.9rem;
+    padding-bottom: 3.8rem;
+  }
+  #portfolio .container-experience {
+    width: 95%;
+  }
+  #portfolio .portfolio-item {
+    width: 100%;
+  }
+  #portfolio .portfolio-info {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+  #portfolio .portfolio-content-title {
+    margin-bottom: 25px;
+  }
+  #portfolio .portfolio-content-title img {
+    width: 30px;
+  }
+  #portfolio .portfolio-content-title h1 {
+    font-size: 1.8rem;
+  }
+  /* ------------------------------ */
+  /* Responsive Design Project
+  /* ------------------------------ */
+  #contact {
+    margin: 0px 10px;
+    padding-top: 2.9rem;
+    padding-bottom: 3.8rem;
+  }
+  #contact .contact-container {
+    width: 100%;
+  }
+  #contact .grid-content {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+  }
+  #contact .box-contact {
+    margin-top: 1rem;
+  }
+  #contact .contact-content-title {
+    margin-bottom: 20px;
+  }
+  #contact .contact-content-title img {
+    width: 30px;
+  }
+  #contact .contact-content-title h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  /* ------------------------------ */
+  /* Responsive Design Home
+  /* ------------------------------ */
+  .content-nav {
+    display: none;
+  }
+  /*Styles for the menu of tabs at the bottom*/
+  .bottom-tabs {
+    display: flex;
+    justify-content: space-around;
+  }
+  .content-image {
+    left: 5px;
+  }
+  header .banner-text {
+    margin-top: 3rem;
+  }
+  .content-image img {
+    width: 40px;
+  }
+  header .banner {
+    width: 100%;
+    padding-bottom: 4.5rem;
+  }
+  header .banner-content-previus {
+    margin-bottom: 13px;
+  }
+  header .banner-content-previus img {
+    width: 55px;
+  }
+  header .banner-content-previus .banner-border-box img {
+    width: 27px;
+  }
+  header .banner-text h1 {
+    font-size: 37px;
+  }
+  header .banner-text h3 {
+    font-size: 18px;
+    width: 95%;
+  }
+  header .social li {
+    margin: 0 8px;
+  }
+  header .skillContainer {
+    margin-top: 0rem;
+  }
+  header .skillContainer h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .whatsapp {
+    bottom: 70px;
+    right: 20px;
+  }
+  /* ------------------------------ */
+  /* Responsive Design About
+  /* ------------------------------ */
+  #about {
+    margin: 0px 10px;
+  }
+  #about .about-item {
+    width: 100%;
+  }
+  #about .about-content-title {
+    margin-top: 2.9rem;
+    margin-bottom: 15px;
+  }
+  #about .about-content-title img {
+    width: 25px;
+  }
+  #about .about-content-title h1 {
+    font-size: 1.8rem;
+  }
+  #about .about-content-bio {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    margin-top: 25px;
+  }
+  #about .about-title {
+    width: 100%;
+  }
+  #about .about-title p {
+    font-size: 1rem;
+  }
+  #about .about-perfil {
+    width: 200px;
+  }
+  /* ------------------------------ */
+  /* Responsive Design Experience
+  /* ------------------------------ */
+  #experience {
+    margin: 0px 10px;
+    padding-top: 2.9rem;
+    padding-bottom: 3.8rem;
+  }
+  #experience .experience-item {
+    width: 100%;
+  }
+  #experience .container-experience {
+    margin-left: 5px;
+  }
+  #experience .experience-content-title {
+    margin-bottom: 25px;
+  }
+  #experience .experience-content-title img {
+    width: 30px;
+  }
+  #experience .experience-content-title h1 {
+    font-size: 1.8rem;
+  }
+  #experience .experience-box-info {
+    width: 100%;
+  }
+  #experience .experience-box-description {
+    width: 100%;
+  }
+  #experience .experience-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 40px;
+  }
+  /* ------------------------------ */
+  /* Responsive Design Project
+  /* ------------------------------ */
+  #portfolio {
+    margin: 0px 10px;
+    padding-top: 2.9rem;
+    padding-bottom: 3.8rem;
+  }
+  #portfolio .portfolio-item {
+    width: 100%;
+  }
+  #portfolio .container-experience {
+    width: 95%;
+  }
+  #portfolio .portfolio-info {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+  #portfolio .portfolio-content-title {
+    margin-bottom: 25px;
+  }
+  #portfolio .portfolio-content-title img {
+    width: 30px;
+  }
+  #portfolio .portfolio-content-title h1 {
+    font-size: 1.8rem;
+  }
+  /* ------------------------------ */
+  /* Responsive Design Project
+  /* ------------------------------ */
+  #contact {
+    margin: 0px 10px;
+    padding-top: 2.9rem;
+    padding-bottom: 3.8rem;
+  }
+  #contact .contact-container {
+    width: 100%;
+  }
+  #contact .grid-content {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+  }
+  #contact .box-contact {
+    margin-top: 1rem;
+  }
+  #contact .contact-content-title {
+    margin-bottom: 20px;
+  }
+  #contact .contact-content-title img {
+    width: 30px;
+  }
+  #contact .contact-content-title h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  /* ------------------------------ */
+  /* Responsive Design Home
+  /* ------------------------------ */
+  .content-nav {
+    display: none;
+  }
+  /*Styles for the menu of tabs at the bottom*/
+  .bottom-tabs {
+    display: flex;
+    justify-content: space-around;
+  }
+  .content-image {
+    left: 5px;
+  }
+  header .banner-text {
+    margin-top: 3rem;
+  }
+  .content-image img {
+    width: 40px;
+  }
+  header .banner {
+    width: 100%;
+  }
+  header .banner-content-previus {
+    margin-bottom: 13px;
+  }
+  header .banner-content-previus img {
+    width: 55px;
+  }
+  header .banner-content-previus .banner-border-box img {
+    width: 27px;
+  }
+  header .banner-text h1 {
+    font-size: 37px;
+  }
+  header .banner-text h3 {
+    font-size: 18px;
+    width: 95%;
+  }
+  header .social li {
+    margin: 0 8px;
+  }
+  header .skillContainer {
+    margin-top: 0rem;
+  }
+  header .skillContainer h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .whatsapp {
+    bottom: 70px;
+    right: 20px;
+  }
+  /* ------------------------------ */
+  /* Responsive Design About
+  /* ------------------------------ */
+  #about {
+    margin: 0px 10px;
+  }
+  #about .about-item {
+    width: 100%;
+  }
+  #about .about-content-title {
+    margin-top: 2.9rem;
+    margin-bottom: 15px;
+  }
+  #about .about-content-title img {
+    width: 25px;
+  }
+  #about .about-content-title h1 {
+    font-size: 1.8rem;
+  }
+  #about .about-content-bio {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    margin-top: 25px;
+  }
+  #about .about-title {
+    width: 100%;
+  }
+  #about .about-title p {
+    font-size: 1rem;
+  }
+  #about .about-perfil {
+    width: 200px;
+  }
+  /* ------------------------------ */
+  /* Responsive Design Experience
+  /* ------------------------------ */
+  #experience {
+    margin: 0px 10px;
+    padding-top: 2.9rem;
+    padding-bottom: 3.8rem;
+  }
+  #experience .experience-item {
+    width: 100%;
+  }
+  #experience .container-experience {
+    margin-left: 5px;
+  }
+  #experience .experience-content-title {
+    margin-bottom: 25px;
+  }
+  #experience .experience-content-title img {
+    width: 30px;
+  }
+  #experience .experience-content-title h1 {
+    font-size: 1.8rem;
+  }
+  #experience .experience-box-info {
+    width: 100%;
+  }
+  #experience .experience-box-description {
+    width: 100%;
+  }
+  #experience .experience-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 40px;
+  }
+  /* ------------------------------ */
+  /* Responsive Design Project
+  /* ------------------------------ */
+  #portfolio {
+    margin: 0px 10px;
+    padding-top: 2.9rem;
+    padding-bottom: 3.8rem;
+  }
+  #portfolio .container-experience {
+    width: 100%;
+  }
+  #portfolio .portfolio-item {
+    width: 100%;
+  }
+  #portfolio .portfolio-info {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 0rem;
+    padding-bottom: 1rem;
+  }
+  #portfolio .portfolio-content-title {
+    margin-bottom: 25px;
+  }
+  #portfolio .portfolio-content-title img {
+    width: 30px;
+  }
+  #portfolio .portfolio-content-title h1 {
+    font-size: 1.8rem;
+  }
+  /* ------------------------------ */
+  /* Responsive Design Project
+  /* ------------------------------ */
+  #contact {
+    margin: 0px 10px;
+    padding-top: 2.9rem;
+    padding-bottom: 3.8rem;
+  }
+  #contact .contact-container {
+    width: 100%;
+  }
+  #contact .grid-content {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+  }
+  #contact .box-contact {
+    margin-top: 1rem;
+  }
+  #contact .contact-content-title {
+    margin-bottom: 20px;
+  }
+  #contact .contact-content-title img {
+    width: 30px;
+  }
+  #contact .contact-content-title h1 {
+    font-size: 1.8rem;
   }
 }

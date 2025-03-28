@@ -6,24 +6,24 @@ const Experience = () => {
   const experiences = [
     {
       title: "Freelance",
-      company: "-",
+      company: "CROMO PERU SAC",
       date: "Ene 2025 - Mar 2025",
       description:
-        "Desarrollo de páginas web y aplicaciones web utilizando tecnologías de HTML, CSS, JavaScript, React, TailwindCSS, React Router, NPM, Shadcn y Lucide para crear interfaces amigables e interactivas. Optimización de rendimiento de las plataformas e integración de APIs para mejorar la comunicación entre Front y Back. Colaboración con clientes para mejorar la interfaz de usuario (UI) y la experiencia (UX).",
+        "Desarrollé un chatbot con un menú de opciones (catálogo digital, cotización, servicios, preguntas frecuentes y más), ademas se agrego la validación de RUC y DNI, permitiendo continuar solo a empresas en estado ACTIVO. Agregué una funcionalidad de cotización donde los clientes ingresan datos y reciben el documento por correo, con opción de adjuntar imágenes.",
     },
     {
       title: "Locador de Servicios",
       company: "Banco de la Nación",
       date: "Ene 2024 - Mar 2024",
       description:
-        "Analicé y segmenté contenidos para la plataforma de Transparencia del Banco de la Nación, diseñé prototipos responsive y desarrollé plantillas en HTML, CSS3 y JavaScript. También implementé mejoras en SEO y elaboré informes sobre la optimización de la plataforma y la migración de contenidos.",
+        "Realicé un análisis de la plataforma de Transparencia BN, mapeando y segmentando contenidos. Diseñé prototipos de interfaz en Figma para escritorio, tablet y móvil. Desarrollé las plantillas responsivas con HTML, CSS3 y JavaScript y ademas implementé SEO en las plantillas y optimicé su rendimiento.",
     },
     {
       title: "Locador de Servicios",
       company: "Banco de la Nación",
       date: "Set 2023 - Nov 2023",
       description:
-        "Analicé y segmenté contenidos para la plataforma de Transparencia del Banco de la Nación, diseñé prototipos responsive y desarrollé plantillas en HTML, CSS3 y JavaScript. También implementé mejoras en SEO y elaboré informes sobre la optimización de la plataforma y la migración de contenidos.",
+        "Realice la verificación de la relación de páginas y archivos de los productos y/o servicios de la plataforma de Banco de la Nación, ademas se hizo el mapeo y segmentación de los contenidos de los productos y/o servicios. Coordinación con las áreas correspondientes del banco y la relación de carga de formularios, formatos y documentos relacionados.",
     },
     {
       title: "Practicante Profesional",
