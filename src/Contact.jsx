@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
-import iconContact from "./assets/iconos/icon-contact.svg";
+import iconContact from "/assets/iconos/icon-contact.svg";
 
 const Contact = () => {
   const [name, setName] = useState("");

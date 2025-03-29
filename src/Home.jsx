@@ -1,15 +1,15 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import ButtonWhatsApp from "./components/ButtonWhatsApp";
-import perfilImg from "./assets/img-perfil.png";
-import handImg from "./assets/img-mano.png";
-import iconLinkedln from "./assets/iconos/icon-linkedln.svg";
-import iconGithub from "./assets/iconos/icon-github.svg";
-import iconJavascript from "./assets/iconos/javascript.svg";
-import iconNext from "./assets/iconos/nextjs.svg";
-import iconHtml from "./assets/iconos/html.svg";
-import iconCss from "./assets/iconos/css.svg";
-import iconReact from "./assets/iconos/reactjs.svg";
+import perfilImg from "/assets/img-perfil.png";
+import handImg from "/assets/img-mano.png";
+import iconLinkedln from "/assets/iconos/icon-linkedln.svg";
+import iconGithub from "/assets/iconos/icon-github.svg";
+import iconJavascript from "/assets/iconos/javascript.svg";
+import iconNext from "/assets/iconos/nextjs.svg";
+import iconHtml from "/assets/iconos/html.svg";
+import iconCss from "/assets/iconos/css.svg";
+import iconReact from "/assets/iconos/reactjs.svg";
 
 const Home = () => {
   return (

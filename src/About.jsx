@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import iconPerfil from "./assets/iconos/icon-about.svg";
-import imgPerfil from "./assets/perfil_user.png";
+import iconPerfil from "/assets/iconos/icon-about.svg";
+import imgPerfil from "/assets/perfil_user.png";
 
 const About = () => {
   return (

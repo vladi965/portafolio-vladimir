@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import iconExperience from "./assets/iconos/icon-experience.svg";
+import iconExperience from "/assets/iconos/icon-experience.svg";
 
 const Experience = () => {
   const experiences = [
