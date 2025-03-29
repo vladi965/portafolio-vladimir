@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
-import iconProject from "./assets/iconos/icon-proyects.svg";
+import iconProject from "/assets/iconos/icon-proyects.svg";
 
 const Project = ({ data }) => {
   const projects = [
