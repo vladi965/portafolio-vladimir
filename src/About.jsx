@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "./components/Navbar";
 import iconPerfil from "/assets/iconos/icon-about.svg";
 import imgPerfil from "/assets/perfil_user.png";
@@ -22,7 +21,9 @@ const About = () => {
               <div className="about-title">
                 <p>Soy Vladimir pero mis amigos me dicen Vladiii.</p>
                 <p>
-                  Me considero una persona apasionada por las tecnologías y la
+                  Tengo más de 2 años desarrollando páginas web, aplicaciones
+                  web y aplicaciones móviles. Me considero una persona
+                  proactiva, comprometido y apasionada por las tecnologías y la
                   programación,{" "}
                   <span>
                     mis stack favoritos son JavaScript, React, React Native,

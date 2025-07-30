@@ -617,10 +617,10 @@ ul#experience-list-skill {
 ul#experience-list-skill li {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 3px;
   border: 1px solid #fff;
   border-radius: 10px;
-  padding: 5px 12px;
+  padding: 4px 10px;
 }
 ul#experience-list-skill li span {
   color: #fff;
