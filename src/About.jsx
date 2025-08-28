@@ -21,7 +21,7 @@ const About = () => {
               <div className="about-title">
                 <p>Soy Vladimir pero mis amigos me dicen Vladiii.</p>
                 <p>
-                  Tengo más de 2 años desarrollando páginas web, aplicaciones
+                  Tengo más de 3 años desarrollando páginas web, aplicaciones
                   web y aplicaciones móviles. Me considero una persona
                   proactiva, comprometido y apasionada por las tecnologías y la
                   programación,{" "}
